@@ -1143,10 +1143,26 @@ a {
 .categories-list .categories-item .categories-image {
    padding: 16px;
    display: flex;
-   border-radius: 18px;
-   background: #00B04A;
+   border: 3px solid #ffccb8;
+   border-radius: 50px;
+   background: #fff;
    justify-content: center;
-   width: 48px;
-   height: 48px;
+   width: 57px;
+   height: 57px;
    align-items: center;
+  
+}
+.categories-image h6{
+  color: #ff5b24 !important;
+}
+.loan-process h6{
+  color: #06038d;
+}
+.commmon-box {
+    background: #fff;
+    border: 1px solid rgba(227, 232, 240, 1);
+    padding: 30px;
+    border-radius: 25px;
+    margin-left: 3px;
+   
 }

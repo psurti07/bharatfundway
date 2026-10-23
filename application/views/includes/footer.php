@@ -6,7 +6,7 @@
 	                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-35 mb-md-45 mb-lg-0">
 	                    <div class="finder-theme-1">
 	                        <img src="<?php echo base_url('assets/images/logo/logo-img.png'); ?>" alt="flexicread"
-	                            class="mb-20 img-fluid">
+	                            class="mb-20 img-fluid" width="200px">
 
 	                        <div class="footer-info">
 	                            <div class="form-subscribe mb-20">

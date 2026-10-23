@@ -9402,8 +9402,7 @@ textarea.form-control.form-control-lg {
 }
 
 .header-theme-1 {
-  background: linear-gradient(0deg, #030516, #030516),
-linear-gradient(90deg, rgba(20, 54, 181, 0.6) 0%, rgba(20, 54, 181, 0) 100%);
+ background: linear-gradient(105deg, #102779 0%, #0d2068 26%, #070b25 53%, #030313 72%, #030313 100%);
 
 }
 
@@ -15521,10 +15520,10 @@ linear-gradient(90deg, rgba(20, 54, 181, 0.6) 0%, rgba(20, 54, 181, 0) 100%);
 }
 
 .section-theme-2 .section-header h2 {
-  color: #000;
+  color: rgba(6, 3, 141, 1);
   margin: 0 0 10px;
   letter-spacing: -0.96px;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 48px;
   line-height: 48px;
 }
@@ -29866,13 +29865,13 @@ linear-gradient(90deg, rgba(20, 54, 181, 0.6) 0%, rgba(20, 54, 181, 0) 100%);
 .categories-item {
   display: flex;
   align-items: center;
-  background: #fff;
-  border-radius: 15px;
+  /*background: #fff;
+  border-radius: 15px;*/
   padding: 24px !important;
   color: #000;
   text-align: center;
   height: 100%;
-  border: 1px solid #E1E5EA;
+  /*border: 1px solid #E1E5EA;*/
 }
 
 @media (min-width: 768px) {
@@ -50244,12 +50243,129 @@ linear-gradient(90deg, rgba(20, 54, 181, 0.6) 0%, rgba(20, 54, 181, 0) 100%);
 }
 
 .bg-dark{
-  background: linear-gradient(0deg, #030516, #030516), linear-gradient(90deg, rgba(20, 54, 181, 0.6) 0%, rgba(20, 54, 181, 0) 100%);
-
+  background: linear-gradient(105deg, #102779 0%, #0d2068 26%, #070b25 53%, #030313 72%, #030313 100%);
 }
 .rates-review {
     margin-bottom: 23px;
 }
 .rates-review img {
     display: inline-block;
+}
+
+.loan-process {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    padding: 85px 30px 40px 25.2%;
+    background: #f5f5ff;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+/* Number circle */
+.process-number {
+    justify-content: center;
+    color: #ff5b24;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-weight: bold;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+/* Heading and description */
+.process-content {
+    z-index: 2;
+    width: 100%;
+}
+
+.process-content h2 {
+    color: #100b9d;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin: 0 0 32px;
+}
+
+.process-content p {
+    color: #394459;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.45;
+    margin: 0;
+}
+
+/* Orange timeline dot */
+.timeline-dot {
+    position: absolute;
+    top: 28px;
+    left: 15.5%;
+    width: 18px;
+    height: 19px;
+    background: #ffb98f;
+    border: 4px solid #ffb98f;
+    border-radius: 50%;
+    box-sizing: border-box;
+    z-index: 3;
+}
+
+.timeline-dot::after {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+/* Curved timeline line */
+.timeline-line {
+    position: absolute;
+    top: 29px;
+    left: 16.8%;
+    right: 9%;
+    height: 96px;
+    border-left: 2px solid #ffb98f;
+    border-bottom: 2px solid #ffb98f;
+    border-bottom-left-radius: 38px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .loan-process {
+        padding: 145px 20px 50px;
+    }
+
+    .process-content h2 {
+        font-size: 28px;
+        margin-bottom: 18px;
+    }
+
+    .process-content p {
+        font-size: 17px;
+    }
+
+    .desktop-break {
+        display: none;
+    }
+
+    .timeline-dot {
+        display: none;
+    }
+
+    .timeline-line {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .process-content h2 {
+        font-size: 24px;
+    }
+
+    .process-content p {
+        font-size: 15px;
+    }
 }

@@ -123,7 +123,7 @@
                 <div class="text-start">
                 <strong class="logo">
                     <a href="<?php echo site_url(); ?>">
-                        <img class="normal-logo" src="<?php echo base_url('assets/images/logo/logo.png'); ?>"
+                        <img class="normal-logo" src="<?php echo base_url('assets/images/logo/logo-white.png'); ?>"
                             alt="flexicread">
                         <img class="sticky-logo" src="<?php echo base_url('assets/images/logo/logo-img.png'); ?>"
                             alt="flexicread">
@@ -154,7 +154,7 @@
 </div>
                 <div>
 
-                    <a class="btn btn-green desktop-btn btn-sm"
+                    <a class="btn btn-white desktop-btn btn-sm"
                         href="<?php echo site_url('onlineprocess/applynow'); ?>"><span class="btn-text">+ Apply
                             Now</span></a>
 
