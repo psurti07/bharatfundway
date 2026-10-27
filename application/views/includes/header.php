@@ -131,8 +131,8 @@
                 </strong>
 </div>
                 <div class="header-right">
-                <a class="btn btn-green mobile-btn"
-                    href="<?php echo site_url('onlineprocess/applynow'); ?>"><span class="btn-text">+ Apply
+                <a class="btn btn-orange mobile-btn"
+                    href="<?php echo site_url('onlineprocess/applynow'); ?>"><span class="btn-text">Apply
                         Now</span></a>
                 <div class="main-nav ms-10 header-menu">
                     <a href="<?php echo site_url(); ?>" class="nav-opener d-flex d-lg-none"><span></span></a>
@@ -142,9 +142,10 @@
                         <ul class="navigation">
                             <li><a href="<?php echo site_url(); ?>">Home</a></li>
                             <li><a href="javascript:;" onclick="goToMenu('aboutus')">About Us</a></li>
+                            
                             <li><a href="javascript:;" onclick="goToMenu('contactus')">Contact</a></li>
                             <li><a href="javascript:;" onclick="goToMenu('testimonial')">Testimonial</a></li>
-                            <li><a href="<?php echo site_url('customer'); ?>">Customer Login</a></li>
+                            <li class="d-lg-none d-block"><a href="<?php echo site_url('customer'); ?>">Customer Login</a></li>
 
                         </ul>
 
@@ -152,10 +153,15 @@
 
                 </div>
 </div>
-                <div>
+                <div class="d-flex align-items-center">
+                          <div class="main-nav ms-10 header-menu d-lg-block d-none">
+      <ul class="navigation">
+            <li class="d-lg-block d-none pe-10"><a href="<?php echo site_url('customer'); ?>">Customer Login</a></li>
 
-                    <a class="btn btn-white desktop-btn btn-sm"
-                        href="<?php echo site_url('onlineprocess/applynow'); ?>"><span class="btn-text">+ Apply
+</ul>
+</div>
+                    <a class="btn btn-orange desktop-btn btn-sm"
+                        href="<?php echo site_url('onlineprocess/applynow'); ?>"><span class="btn-text"> Apply
                             Now</span></a>
 
                 </div>

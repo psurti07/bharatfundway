@@ -11,290 +11,255 @@ $eligibilityamtindia = formatePriceIndia($eligibilityamt);
 ?>
 
 <main class="main d-flex flex-column min-vh-100">
-    <section class="section section-theme-1 packages-block pt-40 bg-light">
+    <section class="section section-theme-1 packages-block pt-80 pb-80 eligible-section">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-6 col-lg-8 mb-15 mb-md-30">
-                    <div class="block-holder form-condidates bg-white shadow">
-                        <div class="d-flex">
-                          <div>
-                              <div class="categories-image">
-                                <span class="icon">
-                                    <img src="<?php echo base_url('assets/images/icons/Salarised.png'); ?>" alt="image"
-                                        class="">
-                                </span>
+            <div class="row justify-content-center align-items-center mx-5">
+                <div class="col-12 col-md-10 col-lg-10 mb-15 mb-md-30 section-block-wrap m-auto">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-12 p-0">
+                            <div
+                                class="card border-0  mt-md-0 mt-5 rounded-0 card-left-content h-100 position-relative bg-transparent">
+                                <p class="text-uppercase fw-bold text-light-sky d-md-block d-none">YOUR APPLICATION</p>
+                                <div class="application-timeline mb-60">
+                                    <div class="timeline-step completed">
+                                        <div class="timeline-circle bg-green">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <span class="timeline-title">Details</span>
+                                    </div>
+                                    <div class="timeline-step completed">
+                                        <div class="timeline-circle bg-green"><i class="fas fa-check"></i></div>
+                                        <span class="timeline-title">Verify OTP</span>
+                                    </div>
+                                    <div class="timeline-step completed">
+                                        <div class="timeline-circle bg-green"><i class="fas fa-check"></i></div>
+                                        <span class="timeline-title">Loan Details</span>
+                                    </div>
+                                    <div class="timeline-step completed">
+                                        <div class="timeline-circle bg-green"><i class="fas fa-check"></i></div>
+                                        <span class="timeline-title">Personal Details</span>
+                                    </div>
+                                    <div class="timeline-step active">
+                                        <div class="timeline-circle bg-orange">5</div>
+                                        <span class="timeline-title">Unlock Offers</span>
+                                    </div>
+                                    <div class="timeline-step">
+                                        <div class="timeline-circle">6</div>
+                                        <span class="timeline-title">Purchase Plan</span>
+                                    </div>
+                                </div>
+
+                                <span
+                                    class="text-success limited-offer-main py-10 px-15 rounded-pill mb-15 d-inline-block fa-xs d-md-block d-none"><i
+                                        class="fa-solid fa-lock me-10 text-success"></i>256-bit secure</span>
+
+
+
+                                <div class="mobile-application-progress">
+
+                                    <div class="mobile-progress-header d-flex justify-content-between">
+                                        <span class="mobile-progress-title">YOUR APPLICATION</span>
+
+                                        <span class="mobile-secure">
+                                            <i class="fas fa-lock"></i> 100% Secure
+                                        </span>
+                                    </div>
+
+                                    <div class="mobile-progress-bars">
+                                        <span class="progress-segment completed"></span>
+                                        <span class="progress-segment completed"></span>
+                                        <span class="progress-segment completed"></span>
+                                        <span class="progress-segment completed"></span>
+                                        <span class="progress-segment active"></span>
+                                        <span class="progress-segment"></span>
+                                    </div>
+
+                                    <p class="mobile-current-step mb-0">
+                                        Step 5 of 6 <span class="text-orange">· Unlock Offers</span>
+                                    </p>
+
+                                </div>
+
+
                             </div>
-</div>
-                            <div class="subhead ms-15">
-                                <h5 class="mb-5 text-dark"><?php echo $userdetails['loanname']; ?></h5>
-                                <!-- <p class="mb-0">Pre-Approved Offer : Congratulations! You're Eligible For <strong
+                        </div>
+                        <div class="col-lg-9 col-md-8 col-12 p-0">
+                            <div class="block-holder form-condidates bg-white shadow rounded-0">
+                                <div class="d-flex">
+                                    <div class="subhead">
+                                        <h5 class="mb-5 text-blue">You're Eligible For Loan Offers.</h5>
+                                        <!-- <p class="mb-0">Pre-Approved Offer : Congratulations! You're Eligible For <strong
                                     class="text-success">Rs. <?php echo $eligibilityamtindia; ?></strong> Pre-Approval
                                 Offered By Our Partnered NBFCs.</p> -->
-                                <p class="mb-0">Selecting the Right EMI Options for Your Financial Goals</p>
-                            </div>
+                                        <p class="mb-0">Unlock offers with our expert consultation</p>
+                                    </div>
+                                </div>
 
-                        </div>
+                                <?php echo form_open('onlineprocess/getpreApproval', array('id' => 'submitForm2', 'class' => '', 'novalidate' => 'novalidate')); ?>
+                                <p>Select your suitable EMI option:</p>
+                                <div class="row gx-10">
 
-                        <?php echo form_open('onlineprocess/getpreApproval', array('id' => 'submitForm2', 'class' => '', 'novalidate' => 'novalidate')); ?>
-                        <div class="row gx-10">
+                                    <input type="hidden" name="applyid" value="<?php echo $userdetails['applyid']; ?>"
+                                        class="form-control" required>
+                                    <input type="hidden" name="userid" value="<?php echo $userdetails['userid']; ?>"
+                                        class="form-control" required>
+                                    <input type="hidden" name="mobile" value="<?php echo $userdetails['mobile']; ?>"
+                                        class="form-control" required>
+                                    <input type="hidden" name="cardtype" value="<?php echo $userdetails['cardtype']; ?>"
+                                        class="form-control" required>
+                                    <input type="hidden" name="tenure" id="tenure" value="36" class="form-control"
+                                        required>
+                                    <input type="hidden" name="eligibilityamt" value="<?php echo $eligibilityamt; ?>"
+                                        class="form-control" required>
 
-                            <input type="hidden" name="applyid" value="<?php echo $userdetails['applyid']; ?>"
-                                class="form-control" required>
-                            <input type="hidden" name="userid" value="<?php echo $userdetails['userid']; ?>"
-                                class="form-control" required>
-                            <input type="hidden" name="mobile" value="<?php echo $userdetails['mobile']; ?>"
-                                class="form-control" required>
-                            <input type="hidden" name="cardtype" value="<?php echo $userdetails['cardtype']; ?>"
-                                class="form-control" required>
-                            <input type="hidden" name="tenure" id="tenure" value="36" class="form-control" required>
-                            <input type="hidden" name="eligibilityamt" value="<?php echo $eligibilityamt; ?>"
-                                class="form-control" required>
+                                    <div class="col-6 col-md-6 col-lg-4 mb-15">
+                                        <fieldset class="picker1">
+                                            <label class="card bg-light-sky" for="plan-1">
+                                                <input type="radio" name="tenure" id="plan-1" value="12" class="radio"
+                                                    checked="">
+                                                <span class="plan-details">
+                                                    <span class="plan-type h6 text-uppercase mb-10">12 months</span>
+                                                    <h5 class="mb-0 fs-16 text-dark">Rs.
+                                                        <?php echo calPMT($userdetails['apr'], 1, $eligibilityamt); ?><br>
 
-                            <div class="col-6 col-md-6 col-lg-4 mb-15">
-                                <fieldset class="picker1">
-                                    <label class="card" for="plan-1">
-                                        <input type="radio" name="tenure" id="plan-1" value="12" class="radio"
-                                            checked="">
-                                        <span class="plan-details">
-                                            <span class="plan-type h6 text-uppercase">12 months</span>
-                                            <h5 class="mb-0 fs-16 text-dark">Rs.
-                                                <?php echo calPMT($userdetails['apr'], 1, $eligibilityamt); ?><br>
+                                                    </h5>
+                                                    <div class="d-flex justify-content-between mt-5">
 
-                                            </h5>
-                                            <div class="d-flex justify-content-between mt-5">
-
-                                                <p class="mb-0">Per Month </p>
-                                                <i class="fa-regular fa-calendar-days fs-5"></i>
-                                            </div>
-                                        </span></label>
-                                </fieldset>
-                            </div>
-
-                            <div class="col-6 col-md-6 col-lg-4 mb-15">
-                                <fieldset class="picker1">
-                                    <label class="card" for="plan-2">
-                                        <input type="radio" name="tenure" id="plan-2" value="24" class="radio">
-                                        <span class="plan-details">
-                                            <span class="plan-type h6 text-uppercase">24 months</span>
-                                            <h5 class="mb-0 fs-16 text-dark">Rs.
-                                                <?php echo calPMT($userdetails['apr'], 2, $eligibilityamt); ?>
-                                            </h5>
-                                            <div class="d-flex justify-content-between mt-5">
-
-                                                <p class="mb-0">Per Month</p>
-                                                <i class="fa-regular fa-calendar-days fs-5"></i>
-                                            </div>
-                                        </span></label>
-                                </fieldset>
-                            </div>
-
-                            <div class="col-6 col-md-6 col-lg-4 mb-15">
-                                <fieldset class="picker1">
-                                    <label class="card" for="plan-3">
-                                        <input type="radio" name="tenure" id="plan-3" value="36" class="radio">
-                                        <span class="plan-details">
-                                            <span class="plan-type h6 text-uppercase">36 months</span>
-                                            <h5 class="mb-0 fs-16 text-dark">Rs.
-                                                <?php echo calPMT($userdetails['apr'], 3, $eligibilityamt); ?>
-                                            </h5>
-                                            <div class="d-flex justify-content-between mt-5">
-
-                                                <p class="mb-0">Per Month</p>
-                                                <i class="fa-regular fa-calendar-days fs-5"></i>
-                                            </div>
-                                        </span></label>
-                                </fieldset>
-                            </div>
-
-                            <div class="col-6 col-md-6 col-lg-4 mb-15">
-                                <fieldset class="picker1">
-                                    <label class="card" for="plan-4">
-                                        <input type="radio" name="tenure" id="plan-4" value="48" class="radio">
-                                        <span class="plan-details">
-                                            <span class="plan-type h6 text-uppercase">48 months</span>
-                                            <h5 class="mb-0 fs-16 text-dark">Rs.
-                                                <?php echo calPMT($userdetails['apr'], 4, $eligibilityamt); ?>
-                                            </h5>
-                                            <div class="d-flex justify-content-between mt-5">
-
-                                                <p class="mb-0">Per Month</p>
-                                                <i class="fa-regular fa-calendar-days fs-5"></i>
-                                            </div>
-                                        </span></label>
-                                </fieldset>
-                            </div>
-
-                            <div class="col-6 col-md-6 col-lg-4 mb-15">
-                                <fieldset class="picker1">
-                                    <label class="card" for="plan-5">
-                                        <input type="radio" name="tenure" id="plan-5" value="60" class="radio">
-                                        <span class="plan-details">
-                                            <span class="plan-type h6 text-uppercase">60 months</span>
-                                            <h5 class="mb-0 fs-16 text-dark">Rs.
-                                                <?php echo calPMT($userdetails['apr'], 5, $eligibilityamt); ?>
-                                            </h5>
-                                            <div class="d-flex justify-content-between mt-5">
-
-                                                <p class="mb-0">Per Month</p>
-                                                <i class="fa-regular fa-calendar-days fs-5"></i>
-                                            </div>
-                                        </span></label>
-                                </fieldset>
-                            </div>
-
-                            <div class="col-6 col-md-6 col-lg-4 mb-15">
-                                <fieldset class="picker1">
-                                    <label class="card" for="plan-6">
-                                        <input type="radio" name="tenure" id="plan-6" value="72" class="radio">
-                                        <span class="plan-details">
-                                            <span class="plan-type h6 text-uppercase">72 months</span>
-                                            <h5 class="mb-0 fs-16 text-dark">Rs.
-                                                <?php echo calPMT($userdetails['apr'], 6, $eligibilityamt); ?>
-                                            </h5>
-                                            <div class="d-flex justify-content-between">
-
-                                                <p class="mb-0">Per Month</p>
-                                                <i class="fa-regular fa-calendar-days fs-5"></i>
-                                            </div>
-                                        </span>
-                                    </label>
-                                </fieldset>
-                            </div>
-
-                            <div class="col-lg-12">
-                                <div class="otp-velidation-text border px-25 py-15 bg-light-gray">
-                                    <div class="card-body">
-                                        <div class="row align-items-center">
-                                            <div class="col-lg-8 col-md-6 col-sm-7 col-12">
-                                                <div class="d-flex align-items-center mb-md-0 mb-5">
-                                                    <div> <i class="fa-solid fa-bullseye text-success"></i>
+                                                        <p class="mb-0">Per Month </p>
+                                                        <i class="fa-regular fa-calendar-days fs-5"></i>
                                                     </div>
-                                                    <div class="ms-10">
-                                                        <p class="mb-0"><small>How is pre-approved loan offer
-                                                                calculated? <a class="text-success"
-                                                                    data-bs-target="#modal" data-bs-toggle="modal"
-                                                                    href="#">Know Here</a></small>
-                                                        </p>
+                                                </span></label>
+                                        </fieldset>
+                                    </div>
+
+                                    <div class="col-6 col-md-6 col-lg-4 mb-15">
+                                        <fieldset class="picker1">
+                                            <label class="card bg-light-sky" for="plan-2">
+                                                <input type="radio" name="tenure" id="plan-2" value="24" class="radio">
+                                                <span class="plan-details">
+                                                    <span class="plan-type h6 text-uppercase mb-10">24 months</span>
+                                                    <h5 class="mb-0 fs-16 text-dark">Rs.
+                                                        <?php echo calPMT($userdetails['apr'], 2, $eligibilityamt); ?>
+                                                    </h5>
+                                                    <div class="d-flex justify-content-between mt-5">
+
+                                                        <p class="mb-0">Per Month</p>
+                                                        <i class="fa-regular fa-calendar-days fs-5"></i>
+                                                    </div>
+                                                </span></label>
+                                        </fieldset>
+                                    </div>
+
+                                    <div class="col-6 col-md-6 col-lg-4 mb-15">
+                                        <fieldset class="picker1">
+                                            <label class="card bg-light-sky" for="plan-3">
+                                                <input type="radio" name="tenure" id="plan-3" value="36" class="radio">
+                                                <span class="plan-details">
+                                                    <span class="plan-type h6 text-uppercase mb-10">36 months</span>
+                                                    <h5 class="mb-0 fs-16 text-dark">Rs.
+                                                        <?php echo calPMT($userdetails['apr'], 3, $eligibilityamt); ?>
+                                                    </h5>
+                                                    <div class="d-flex justify-content-between mt-5">
+
+                                                        <p class="mb-0">Per Month</p>
+                                                        <i class="fa-regular fa-calendar-days fs-5"></i>
+                                                    </div>
+                                                </span></label>
+                                        </fieldset>
+                                    </div>
+
+                                    <div class="col-6 col-md-6 col-lg-4 mb-15">
+                                        <fieldset class="picker1">
+                                            <label class="card bg-light-sky" for="plan-4">
+                                                <input type="radio" name="tenure" id="plan-4" value="48" class="radio">
+                                                <span class="plan-details">
+                                                    <span class="plan-type h6 text-uppercase mb-10">48 months</span>
+                                                    <h5 class="mb-0 fs-16 text-dark">Rs.
+                                                        <?php echo calPMT($userdetails['apr'], 4, $eligibilityamt); ?>
+                                                    </h5>
+                                                    <div class="d-flex justify-content-between mt-5">
+
+                                                        <p class="mb-0">Per Month</p>
+                                                        <i class="fa-regular fa-calendar-days fs-5"></i>
+                                                    </div>
+                                                </span></label>
+                                        </fieldset>
+                                    </div>
+
+                                    <div class="col-6 col-md-6 col-lg-4 mb-15">
+                                        <fieldset class="picker1">
+                                            <label class="card bg-light-sky" for="plan-5">
+                                                <input type="radio" name="tenure" id="plan-5" value="60" class="radio">
+                                                <span class="plan-details">
+                                                    <span class="plan-type h6 text-uppercase mb-10">60 months</span>
+                                                    <h5 class="mb-0 fs-16 text-dark">Rs.
+                                                        <?php echo calPMT($userdetails['apr'], 5, $eligibilityamt); ?>
+                                                    </h5>
+                                                    <div class="d-flex justify-content-between mt-5">
+
+                                                        <p class="mb-0">Per Month</p>
+                                                        <i class="fa-regular fa-calendar-days fs-5"></i>
+                                                    </div>
+                                                </span></label>
+                                        </fieldset>
+                                    </div>
+
+                                    <div class="col-6 col-md-6 col-lg-4 mb-15">
+                                        <fieldset class="picker1">
+                                            <label class="card bg-light-sky" for="plan-6">
+                                                <input type="radio" name="tenure" id="plan-6" value="72" class="radio">
+                                                <span class="plan-details">
+                                                    <span class="plan-type h6 text-uppercase mb-10">72 months</span>
+                                                    <h5 class="mb-0 fs-16 text-dark">Rs.
+                                                        <?php echo calPMT($userdetails['apr'], 6, $eligibilityamt); ?>
+                                                    </h5>
+                                                    <div class="d-flex justify-content-between">
+
+                                                        <p class="mb-0">Per Month</p>
+                                                        <i class="fa-regular fa-calendar-days fs-5"></i>
+                                                    </div>
+                                                </span>
+                                            </label>
+                                        </fieldset>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <div
+                                            class="otp-velidation-text border px-25 py-15 bg-light-gray border-orange mt-15">
+                                            <div class="card-body">
+                                                <div class="row align-items-center">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                        <div class="d-flex align-items-center mb-md-0 mb-5">
+                                                            <div> <i class="fa-solid fa-bullseye text-orange"></i>
+                                                            </div>
+                                                            <div class="ms-10">
+                                                                <p class="mb-10 text-blue"><small>Soft check only —
+                                                                        won't impact your credit score.</small>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-end">
+                                                        <button type="submit"
+                                                            class="btn btn-orange btn-sm js-confetti w-100"
+                                                            id="formsubmit2"><span class="btn-text">
+                                                                Choose offer <i
+                                                                    class="fa-solid fa-arrow-right"></i></span></button>
                                                     </div>
                                                 </div>
+
                                             </div>
-                                            <div class="col-lg-4  col-md-6 col-sm-5 col-12 text-end">
-                                                <button type="submit" class="btn btn-green btn-sm js-confetti w-100"
-                                                    id="formsubmit2"><span class="btn-text">
-                                                        Choose offer <i
-                                                            class="fa-solid fa-arrow-right"></i></span></button>
-                                            </div>
-                                        </div>
 
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <?php echo form_close(); ?>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-4 mb-15 mb-md-30">
-                    <div class="card bg-white shadow border-0 p-25 mt-md-0 mt-5">
-                        <span class="text-uppercase fw-boldsub-title mb-5 d-block text-gray-alt">Desired Loan
-                            Amount</span>
-                        <div class="text-start mb-15 border-bottom pb-5">
-                            <h4 class="text-dark mb-5">₹<?php echo number_format($userdetails['loanamount'], 2); ?></h4>
-                            <p class="mb-0">Tenure: up to 60 months · ROI from 11%*</p>
-                        </div>
-                        <p class="text-uppercase fw-bold">Customer details</p>
-                        <div class="user-details-table mb-0">
-                            <div class="d-flex mb-10">
-                                <div class="icon-col">
-                                    <div class="m-auto">
-                                        <div
-                                            class="d-flex align-items-center justify-content-center bg-light-gray image-wrap">
-                                            <i class="fa-regular fa-user"></i>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="ms-10">
-                                    <small class="text-uppercase d-block s-12">Name</small>
-                                    <p class="h6"><?php echo $userdetails['fullname']; ?></p>
-                                </div>
-                            </div>
-                            <div class="d-flex mb-10">
-                                <div class="icon-col">
-                                    <div class="m-auto">
-                                        <div
-                                            class="d-flex align-items-center justify-content-center bg-light-gray image-wrap">
-                                            <i class="fa-solid fa-phone"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ms-10">
-                                    <small class="text-uppercase d-block s-12">Mobile :</small>
-                                    <p class="h6"><?php echo $userdetails['mobile']; ?></p>
-                                </div>
-                            </div>
-                            <!-- <div class="d-flex mb-10">
-                                <div class="icon-col">
-                                    <div class="m-auto">
-                                        <div
-                                            class="d-flex align-items-center justify-content-center bg-light-gray image-wrap">
-                                            <span class="flaticon-user lh-1"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ms-10">
-                                    <small class="text-uppercase d-block s-12">Loan Amount :</small>
-                                    <p class="h6"><?php echo formatePriceIndia($userdetails['loanamount']); ?></p>
-                                </div>
-                            </div> -->
-                            <div class="d-flex mb-10">
-                                <div class="icon-col">
-                                    <div class="m-auto">
-                                        <div
-                                            class="d-flex align-items-center justify-content-center bg-light-gray image-wrap">
-                                            <i class="fa-regular fa-envelope"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ms-10">
-                                    <small class="text-uppercase d-block s-12">Email</small>
-                                    <p class="h6"><?php echo $userdetails['email']; ?></p>
-                                </div>
-                            </div>
-                            <div class="d-flex mb-10">
-                                <div class="icon-col">
-                                    <div class="fbox-ico ico-16 m-auto">
-                                        <div
-                                            class="d-flex align-items-center justify-content-center bg-light-gray image-wrap">
-                                            <i class="fa-regular fa-file"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ms-10">
-                                    <small class="text-uppercase d-block s-12">Loan Type</small>
-                                    <p class="h6">Personal Loan</p>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="otp-velidation-text-wrap border border-success bg-light p-10">
-
-                            <div class="d-flex align-items-start">
-
-                                <div>
-                                    <i class="fa-solid fa-shield text-success"></i>
-                                </div>
-                                <p class="mb-0 ms-10 mt-0 fw-normal">Your data is
-                                    256-bit encrypted and never
-                                    shared
-                                    without your consent.</p>
-
+                                <?php echo form_close(); ?>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
-        </div>
     </section>
 
     <section
@@ -302,7 +267,7 @@ $eligibilityamtindia = formatePriceIndia($eligibilityamt);
         <div class="container">
             <div class="mb-30 mb-md-40">
                 <div class="col-12">
-                    <h4 class="text-center">Loan facility is provided by Our NBFC Partners.</h4>
+                    <h4 class="text-center text-blue">Loan facility is provided by Our NBFC Partners.</h4>
                     <p class="text-center">Your Pre-Approved Loan Offers From</p>
                 </div>
             </div>
@@ -318,10 +283,13 @@ $eligibilityamtindia = formatePriceIndia($eligibilityamt);
                     <div>
                         <h6 class="mt-20"><?php echo $row->bank_name; ?></h6>
                         <hr>
-                        <p class="" style="margin-bottom: 0.2rem;">Rs. <?php echo formatePriceIndia($eligibilityamt); ?></p>
-                        <p class="" style="margin-bottom: 0.2rem;">EMI : Rs. <?php echo calPMT($row->roi, $row->termsyears, $eligibilityamt); ?></p>
+                        <p class="" style="margin-bottom: 0.2rem;">Rs. <?php echo formatePriceIndia($eligibilityamt); ?>
+                        </p>
+                        <p class="" style="margin-bottom: 0.2rem;">EMI : Rs.
+                            <?php echo calPMT($row->roi, $row->termsyears, $eligibilityamt); ?></p>
                         <p class="" style="margin-bottom: 0.2rem;">ROI : <?php echo $row->roi."%"; ?></p>
-                        <p class="" style="margin-bottom: 0.2rem;">Terms : <?php echo $row->termsmonths." months"; ?></p>
+                        <p class="" style="margin-bottom: 0.2rem;">Terms : <?php echo $row->termsmonths." months"; ?>
+                        </p>
                     </div>
                 </div>
                 <?php

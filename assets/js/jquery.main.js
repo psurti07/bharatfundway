@@ -872,7 +872,7 @@ function initSlickCarousel() {
 
 	jQuery('.client_testimonials_slider').slick({
 		slidesToScroll: 1,
-		slidesToShow: 3,
+		slidesToShow: 4,
 		rows: 0,
 		margin:10,
 		arrows: false,

@@ -470,7 +470,7 @@
 }
 @media (min-width: 1440px) {
   .jobplugin h3, .jobplugin .h3 {
-    font-size: 50px;
+    font-size: 36px;
   }
 }
 .jobplugin h4, .jobplugin .h4 {
@@ -501,7 +501,7 @@
 }
 @media (min-width: 1200px) {
   .jobplugin h5, .jobplugin .h5 {
-    font-size: 26px;
+    font-size: 22px;
   }
 }
 .jobplugin h6, .jobplugin .h6 {

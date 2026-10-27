@@ -30,7 +30,7 @@ class Slider {
     }
 
     let percentage =  (this.rangeElement.value - this.options.min) / (this.options.max - this.options.min) * 100
-    return 'background: linear-gradient(to right, #4D0690, #4D0690 ' + percentage + '%, #E2E8F0 ' + percentage + '%, #E2E8F0 100%)'
+    return 'background: linear-gradient(to right, #FF671F, #FF671F ' + percentage + '%, #E2E8F0 ' + percentage + '%, #E2E8F0 100%)'
   }
 
   updateSlider (newValue) {
