@@ -93,8 +93,8 @@ defined('EXIT__AUTO_MAX') or define('EXIT__AUTO_MAX', 125); // highest automatic
 define('PROJECT_NAME', 'Bharatfundway');
 define('COMPANY_NAME', 'Caseprime Solutions Llp');
 define('COMPANY_EMAIL', 'info@bharatfundway.com');
-define('COMPANY_MOBILE', '#');
-define('COMPANY_CIN', '#');
+define('COMPANY_MOBILE', '+91-90232-48933');
+define('COMPANY_CIN', 'ADC-4066');
 define('COMPANY_GST', '24AAXFC0792L1ZV');
 define('COMPANY_SITE', '#');
 define('PARTNER_SITE', '#');
