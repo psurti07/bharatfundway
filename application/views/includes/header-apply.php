@@ -17,7 +17,7 @@
         <?php if (isset($meta->title)) {
             echo $meta->title;
         } else {
-            echo "Apply for Instant Personal Loan Online approvals | flexicread";
+            echo "Apply for Instant Personal Loan Online approvals | Bharatfundway";
         } ?>
     </title>
     <meta name="description" content="<?php if (isset($meta->descriptions)) {
@@ -27,11 +27,11 @@
         echo $meta->keywords;
     } ?>" />
 
-    <meta property="og:title" content="flexicreadur Trusted Source for Quick and Easy Financing">
-    <meta property="og:site_name" content="flexicread">
+    <meta property="og:title" content="Bharatfundwayur Trusted Source for Quick and Easy Financing">
+    <meta property="og:site_name" content="Bharatfundway">
     <meta property="og:url" content="<?php echo site_url(); ?>">
     <meta property="og:description"
-        content="flexicread Expert Financial Consultation company provides fast and easy financing solutions to individuals and businesses in need of financial assistance.">
+        content="Bharatfundway Expert Financial Consultation company provides fast and easy financing solutions to individuals and businesses in need of financial assistance.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="<?php echo base_url('assets/img/logo-dark@2x.png'); ?>">
     <meta property="og:locale" content="en_IN">
@@ -43,7 +43,7 @@
     <meta name="author" content="vw-team">
 
 
-    <link rel="shortcut icon" href="<?php echo base_url('assets/img/logo/flexicreadicon.png'); ?>">
+    <link rel="shortcut icon" href="<?php echo base_url('assets/img/logo/Bharatfundwayicon.png'); ?>">
     <link rel="apple-touch-icon" sizes="180x180"
         href="<?php echo base_url('assets/img/logo/apple-icon-180x180.png'); ?>">
     <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url('assets/img/logo/favicon-16x16.png'); ?>">
@@ -84,9 +84,9 @@
                 <strong class="logo">
                     <a href="<?php echo site_url(); ?>">
                         <img class="normal-logo" src="<?php echo base_url('assets/images/logo/logo-light.png'); ?>"
-                            alt="flexicread">
+                            alt="Bharatfundway">
                         <img class="sticky-logo" src="<?php echo base_url('assets/images/logo/logo-img.png'); ?>"
-                            alt="flexicread">
+                            alt="Bharatfundway">
                     </a>
                 </strong>
 </div>

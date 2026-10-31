@@ -4,7 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, height=device-height,  initial-scale=1.0, user-scalable=no;user-scalable=0;"/>
-        <title><?php if(isset($meta->title)) { echo $meta->title; } else { echo "Apply for Instant Personal Loan Online approvals | Flexicread";}?></title>
+        <title><?php if(isset($meta->title)) { echo $meta->title; } else { echo "Apply for Instant Personal Loan Online approvals | bharatfundway";}?></title>
         <meta name="description" content="<?php if(isset($meta->descriptions)) { echo $meta->descriptions; } ?>" />
         <meta name="keywords" content="<?php if(isset($meta->keywords)) { echo $meta->keywords; } ?>" />
 
@@ -14,7 +14,7 @@
         <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <meta name="author" content="vw-team">
 
-        <link rel="shortcut icon" href="<?php echo base_url('assets/img/flexicread'); ?>">
+        <link rel="shortcut icon" href="<?php echo base_url('assets/img/bharatfundway'); ?>">
         <link rel="apple-touch-icon" sizes="180x180" href="<?php echo base_url('assets/img/apple-icon-180x180.png'); ?>">
         <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url('assets/img/favicon-16x16.png'); ?>">
         <link rel="icon" type="image/x-icon" href="<?php echo base_url('assets/images/favicon.ico'); ?>">

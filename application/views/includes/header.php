@@ -17,7 +17,7 @@
         <?php if (isset($meta->title)) {
       echo $meta->title;
     } else {
-      echo "Apply for Instant Personal Loan Online approvals | flexicread";
+      echo "Apply for Instant Personal Loan Online approvals | Bharatfundway";
     } ?>
     </title>
     <meta name="description" content="<?php if (isset($meta->descriptions)) {
@@ -27,11 +27,11 @@
     echo $meta->keywords;
   } ?>" />
 
-    <meta property="og:title" content="flexicread: Your Trusted Source for Quick and Easy Financing">
-    <meta property="og:site_name" content="flexicread">
+    <meta property="og:title" content="Bharatfundway: Your Trusted Source for Quick and Easy Financing">
+    <meta property="og:site_name" content="Bharatfundway">
     <meta property="og:url" content="<?php echo site_url(); ?>">
     <meta property="og:description"
-        content="flexicread Expert Financial Consultation company provides fast and easy financing solutions to individuals and businesses in need of financial assistance.">
+        content="Bharatfundway Expert Financial Consultation company provides fast and easy financing solutions to individuals and businesses in need of financial assistance.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="<?php echo base_url('assets/img/logo/logo-lg.png'); ?>">
     <meta property="og:locale" content="en_IN">
@@ -124,9 +124,9 @@
                 <strong class="logo">
                     <a href="<?php echo site_url(); ?>">
                         <img class="normal-logo" src="<?php echo base_url('assets/images/logo/logo-white.png'); ?>"
-                            alt="flexicread">
+                            alt="Bharatfundway">
                         <img class="sticky-logo" src="<?php echo base_url('assets/images/logo/logo-img.png'); ?>"
-                            alt="flexicread">
+                            alt="Bharatfundway">
                     </a>
                 </strong>
 </div>

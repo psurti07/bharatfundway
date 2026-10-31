@@ -78,7 +78,7 @@ $this->load->view('includes/header-apply');
               <p>By submitting the form & proceeding, you agree to the <a
                   href="<?php echo site_url('terms-conditions'); ?>" target="_blank" class="text-dark"><strong>Terms of
                     Use</strong></a> and <a href="<?php echo site_url('privacy-policy'); ?>" target="_blank"
-                  class="text-dark"><strong>Privacy Policy</strong></a> of Flexicread.com</p>
+                  class="text-dark"><strong>Privacy Policy</strong></a> of Bharatfundway.com</p>
             </div>
             <div class="col-12">
               <button type="submit" class="btn btn-green btn-sm" id="submit-btn2"><span class="btn-text">APPLY

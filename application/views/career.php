@@ -10,7 +10,7 @@ $this->load->view('includes/header-apply');
       <div class="col-12">
         <div class="subvisual-textbox text-dark">
           <h1>Join Our Team</h1>
-          <p>Thank you for expressing an interest in working with Flexicread>
+          <p>Thank you for expressing an interest in working with Bharatfundway>
         </div>
       </div>
     </div>
@@ -39,7 +39,7 @@ $this->load->view('includes/header-apply');
           <tr>
             <td colspan="4">
               <div class="text-center">
-                <span>Unfortunately, we do not currently have any openings. Please send your updated CV to: <a class="text-dark" href='mailto:hr@flexicread.com'>hr@flexicread.com</a> <br/> We will contact you if your qualifications match any of our future requirements.</span>
+                <span>Unfortunately, we do not currently have any openings. Please send your updated CV to: <a class="text-dark" href='mailto:hr@Bharatfundway.com'>hr@Bharatfundway.com</a> <br/> We will contact you if your qualifications match any of our future requirements.</span>
               </div>
             </td>
           </tr>

@@ -90,15 +90,15 @@ defined('EXIT__AUTO_MAX') or define('EXIT__AUTO_MAX', 125); // highest automatic
  */
 
 // Project details
-define('PROJECT_NAME', 'Flexicread');
-define('COMPANY_NAME', '#');
-define('COMPANY_EMAIL', 'info@flexicread.com');
+define('PROJECT_NAME', 'Bharatfundway');
+define('COMPANY_NAME', 'Caseprime Solutions Llp');
+define('COMPANY_EMAIL', 'info@bharatfundway.com');
 define('COMPANY_MOBILE', '#');
 define('COMPANY_CIN', '#');
-define('COMPANY_GST', '#');
+define('COMPANY_GST', '24AAXFC0792L1ZV');
 define('COMPANY_SITE', '#');
 define('PARTNER_SITE', '#');
-define('COMPANY_ADDRESS', '#');
+define('COMPANY_ADDRESS', 'B-111 ,  Kailash Nagar Co-Operative Housing ,  Near Lilyawala School , Dumbhal Bombay Market ,  Surat , Gujarat , 395004');
 define('COMPANY_TIMING', '10 AM to 5 PM (Monday to Saturday)');
 
 define('SECURE_SALT', 'verloopweb');
@@ -113,14 +113,14 @@ define('SM_PINTEREST', '#');
 define('SM_YOUTUBE', '#');
 
 // Email SMTP details
-define('SMTP_HOST', 'mail.flexicread.com');
-define('SMTP_USER_INFO', 'info@flexicread.com');
+define('SMTP_HOST', 'mail.bharatfundway.com');
+define('SMTP_USER_INFO', 'info@bharatfundway.com');
 define('SMTP_PASSWORD_INFO', '#');
 
-define('SMTP_USER_SUPPORT', 'info@flexicread.com');
+define('SMTP_USER_SUPPORT', 'info@bharatfundway.com');
 define('SMTP_PASSWORD_SUPPORT', '#');
 
-define('SMTP_USER_HR', 'info@flexicread.com');
+define('SMTP_USER_HR', 'info@bharatfundway.com');
 define('SMTP_PASSWORD_HR', '#');
 
 // OBB - SMS details - m
@@ -130,9 +130,9 @@ define('SMS_OBB_PASSWORD', '#');
 define('SMS_OBB_SENDER_ID', '#');
 
 // SENDINBLUE details
-define('SMTP_USER', 'info@flexicread.com');
+define('SMTP_USER', 'info@bharatfundway.com');
 define('SIB_NAME', '#');
-define('SIB_EMAILID', 'info@flexicread.com');
+define('SIB_EMAILID', 'info@bharatfundway.com');
 define('SIB_APIKEY', '#');
 
 // Phonepe details

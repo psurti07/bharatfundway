@@ -315,7 +315,7 @@
                     <li>Opt for the step-down EMI.</li>
                     <li>Change the lender if you get a loan offer with lesser EMI.</li>
                     <li>Maintain a strong CIBIL score to enjoy lower interest rates and reduced EMI.</li>
-                    <li>Become a Flexicread.com Member for the best deals as per your needs and repaying capacity.</li>
+                    <li>Become a Bharatfundway.com Member for the best deals as per your needs and repaying capacity.</li>
                   </ul>
                 </div>
                 <!-- /.card-body -->
@@ -396,7 +396,7 @@
                     <li>Opt for the step-down EMI.</li>
                     <li>Change the lender if you get a loan offer with lesser EMI.</li>
                     <li>Maintain a strong CIBIL score to enjoy lower interest rates and reduced EMI.</li>
-                    <li>Become a Flexicread.com Member for the best deals as per your needs and repaying capacity.</li>
+                    <li>Become a Bharatfundway.com Member for the best deals as per your needs and repaying capacity.</li>
                   </ul>
                 </div>
                 <!-- /.card-body -->

@@ -43,7 +43,7 @@
           "amount": amount * 100,
           "currency": "INR",
           "order_id": orderid,
-          "name": "Flexicread",
+          "name": "Bharatfundway",
           "description": description,
           "prefill": {
             "name": fullname,

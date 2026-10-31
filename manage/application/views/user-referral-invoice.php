@@ -22,10 +22,10 @@
             <tbody>
                 <tr>
                   <td style="vertical-align:bottom;word-wrap:break-word;float:left;width:50%;text-align:left;">
-                    <b style="font-size:14pt;">flexicread.com</b><br>
-                    <b>Roop Finserve India Pvt. Ltd.</b><br/>
+                    <b style="font-size:14pt;">bharatfundway.com</b><br>
+                    <b><?php echo COMPANY_NAME ?></b><br/>
                     <div>
-                    <span style="white-space: pre-wrap;" id="tmp_org_address">G-5, Green Elina Complex<br/>Anand Mahal Road, Adajan<br/>Surat, Gujarat, India - 395009<<br/>Mo.: <?php echo COMPANY_MOBILE; ?><br/>Email: <?php echo COMPANY_EMAIL; ?><br/>CIN No: <?=COMPANY_CIN?> <br/>GST No.: <?=COMPANY_GST?></span>
+                    <span style="white-space: pre-wrap;" id="tmp_org_address">B-111 ,  Kailash Nagar Co-Operative Housing ,<br/> Near Lilyawala School ,<br>Dumbhal Bombay Market ,<br/>Surat, Gujarat - 395004<br/>Mo.: <?php echo COMPANY_MOBILE ?><br/>Email: <?php echo COMPANY_EMAIL ?><br/>CIN No: <?=COMPANY_CIN?> <br/>GST No.: <?=COMPANY_GST?></span>
                      </div>
                   </td>
                    <td style="vertical-align:top;word-wrap:break-word;float:right;text-align:right;width:50%;">

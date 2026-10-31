@@ -387,7 +387,7 @@ Class Manage_User_Model extends CI_Model {
 		if($statusid == 1) {
 			$res = $this->getreferraldetails($id);
 			// Send SMS
-			$message = "Hello, your payout has been successfully credited to your account. Please check your login portal. Thanks & Regards, flexicread";
+			$message = "Hello, your payout has been successfully credited to your account. Please check your login portal. Thanks & Regards, bharatfundway";
 			$smsresponse = sendtextSMSobb($res['refferaldetails']->mobile, $message);
 		}
 
@@ -595,7 +595,7 @@ Class Manage_User_Model extends CI_Model {
 							->update('user_registration', $data); 
 
 			// Send SMS
-			$message = "Hello ".$account->fullname." Your flexicread account's new password is ".$password." Do not share it with anyone. Thanks, flexicread";
+			$message = "Hello ".$account->fullname." Your bharatfundway account's new password is ".$password." Do not share it with anyone. Thanks, bharatfundway";
 			$smsresponse = sendtextSMSobb($account->mobile, $message);
 
 						
@@ -622,7 +622,7 @@ Class Manage_User_Model extends CI_Model {
 						->update('user_registration', $data);
 
 			if($status == 0) {
-				$message = "Dear User, Your account has been suspended due to some reason. For any query, kindly contact the company. Thanks & Regards, flexicread";
+				$message = "Dear User, Your account has been suspended due to some reason. For any query, kindly contact the company. Thanks & Regards, bharatfundway";
 				$smsresponse = sendtextSMSobb($account->mobile, $message);
 			}
 
@@ -712,17 +712,17 @@ Class Manage_User_Model extends CI_Model {
 	public function sendkycverifymessage($mobile='', $emailid=''){
 		
 		if($mobile != '') {
-			$smsmessage = "Dear Customer, your documents are successfully verified. Our Company Executive will contact you soon for your loan process. Thanks, flexicread";
+			$smsmessage = "Dear Customer, your documents are successfully verified. Our Company Executive will contact you soon for your loan process. Thanks, bharatfundway";
 			$smsresponse = sendtextSMSobb($mobile, $smsmessage);
 		}
 
 		if($emailid != '') {
-			$subject = "Documents Verification Message - flexicread";
+			$subject = "Documents Verification Message - bharatfundway";
 
 			$message = '<p>Dear Customer,</p>';
 			$message .= '<h3>Congratulations!</h3>';
 			$message .= '<p>The documents submitted by you are successfully verified. Our Company Executive will call you shortly regarding your loan process.</p>';
-			$message .= '<p>Thanks & Regards,<br/>flexicread</p>';
+			$message .= '<p>Thanks & Regards,<br/>bharatfundway</p>';
 
 			$this->load->model('Manage_General_Model');
 			$content = $this->Manage_General_Model->simpleemailtemplate($message);
@@ -747,12 +747,12 @@ Class Manage_User_Model extends CI_Model {
 		}
 
 		if($emailid != '') {
-			$subject = "Documents Verification Message - flexicread";
+			$subject = "Documents Verification Message - bharatfundway";
 
 			$message = '<p>Dear Customer,</p>';
 			$message .= '<h3>Congratulations!</h3>';
 			$message .= '<p>Your documents are successfully verified. Your payout will be credited to your account according to the successful referrals.</p>';
-			$message .= '<p>Thanks & Regards,<br/>flexicread</p>';
+			$message .= '<p>Thanks & Regards,<br/>bharatfundway</p>';
 			
 			$this->load->model('Manage_General_Model');
 			$content = $this->Manage_General_Model->simpleemailtemplate($message);
@@ -783,7 +783,7 @@ Class Manage_User_Model extends CI_Model {
 				'name' => $maildata['fullname']
 			);
 
-			$subject = "Welcome to flexicread";
+			$subject = "Welcome to bharatfundway";
 
 			$this->load->model('Manage_General_Model');
 			$content = $this->Manage_General_Model->customerwelcomeemailtemplate($maildata);

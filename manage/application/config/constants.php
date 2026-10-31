@@ -89,16 +89,17 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
  */
 
 // Project details
-define('PROJECT_NAME', 'Flexicread');
-define('COMPANY_NAME', 'Shree Ram Finhub Solutions LLp');
-define('COMPANY_EMAIL', 'info@flexicread.com');
-define('COMPANY_MOBILE', '+91-95127-63889');
-define('COMPANY_CIN', 'ACP-2746');
-define('COMPANY_GST', '24ACKFA3022A1Z8');
-define('COMPANY_SITE', 'https://flexicread.com');
-define('PARTNER_SITE', 'https://site.flexicread.com');
-define('COMPANY_ADDRESS', '1st Flr, Plot 29, Parvati Nagar CHS2, Katargam Road, Katargam, Surat, Gujarat - 395004');
+define('PROJECT_NAME', 'Bharatfundway');
+define('COMPANY_NAME', 'Caseprime Solutions Llp');
+define('COMPANY_EMAIL', 'info@bharatfundway.com');
+define('COMPANY_MOBILE', '#');
+define('COMPANY_CIN', '#');
+define('COMPANY_GST', '24AAXFC0792L1ZV');
+define('COMPANY_SITE', '#');
+define('PARTNER_SITE', '#');
+define('COMPANY_ADDRESS', 'B-111 ,  Kailash Nagar Co-Operative Housing ,  Near Lilyawala School , Dumbhal Bombay Market ,  Surat , Gujarat , 395004');
 define('COMPANY_TIMING', '10 AM to 5 PM (Monday to Saturday)');
+
 
 define('SECURE_SALT', 'verloopweb');
 
@@ -121,15 +122,15 @@ define('SM_PINTEREST', '#');
 define('SM_YOUTUBE', '#');
 
 // Email SMTP details
-define('SMTP_HOST', 'mail.flexicread.com');
-define('SMTP_USER_INFO', 'info@flexicread.com');
-define('SMTP_PASSWORD_INFO', 'Finbazar@4545');
+define('SMTP_HOST', 'mail.bharatfundway.com');
+define('SMTP_USER_INFO', 'info@bharatfundway.com');
+define('SMTP_PASSWORD_INFO', 'bfundway@4545');
 
-define('SMTP_USER_SUPPORT', 'info@flexicread.com');
-define('SMTP_PASSWORD_SUPPORT', 'Finbazar@4545');
+define('SMTP_USER_SUPPORT', 'info@bharatfundway.com');
+define('SMTP_PASSWORD_SUPPORT', 'bfundway@4545');
 
-define('SMTP_USER_HR', 'info@flexicread.com');
-define('SMTP_PASSWORD_HR', 'Finbazar@4545');
+define('SMTP_USER_HR', 'info@bharatfundway.com');
+define('SMTP_PASSWORD_HR', 'bfundway@4545');
 
 // OBB - SMS details - m
 define('SMS_OBB_API_KEY', '#');
@@ -138,9 +139,9 @@ define('SMS_OBB_PASSWORD', '#');
 define('SMS_OBB_SENDER_ID', '#');
 
 // SENDINBLUE details
-define('SMTP_USER', 'info@flexicread.com');
-define('SIB_NAME', 'flexicread.com');
-define('SIB_EMAILID', 'info@flexicread.com');
+define('SMTP_USER', 'info@bharatfundway.com');
+define('SIB_NAME', 'bharatfundway.com');
+define('SIB_EMAILID', 'info@bharatfundway.com');
 define('SIB_APIKEY', '#');
 
 // Whatsapp API

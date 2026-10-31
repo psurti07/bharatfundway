@@ -8,16 +8,15 @@ $this->load->view('includes/header-apply.php');
             <div class="col-12 col-md-6 col-lg-6 col-xl-6 order-2">
                 <div class="text-hold">
                     <div class="tag-list mb-25">
-                        <span class="tag-wrap">India's #1 credit & loan expert</span>
+                        <span class="tag-wrap">Your Credit & Loan Assistance Partner</span>
                     </div>
                 </div>
 
                 <div class="visual-textbox pt-0 mb-25">
-                    <h2 class="text-light">Meet <span class="text-orange">BhartFundWay</span>. Every Indian's own
-                        relationship manager </h2>
+                    <h2 class="text-light">Meet <span class="text-orange">BhartFundWay</span>. Your Partner in Smarter Financial Decisions. </h2>
                 </div>
                 <p class="text-white mb-0">
-                    BharatFundWay experienced professionals help you reach your financial goals.
+                    BharatFundWay helps you explore suitable loan options with professional guidance and application support based on your eligibility.
                 </p>
 
             </div>
@@ -27,13 +26,13 @@ $this->load->view('includes/header-apply.php');
                     <div class="account-box-frame text-dark bg-white shadow">
                         <div class="section-header text-center mb-0">
 
-                            <h5 class="text-blue mb-1">Apply in <div class="range" style="display: inline-block;">
+                            <h5 class="text-blue mb-1">Explore Loan Options Up to<div class="range" style="display: inline-block;">
 
-                                    <span class="text-orange fs-4">5 Minutes</span>
+                                    <span class="text-orange fs-4">₹10 Lakhs</span>
 
                                 </div>
                             </h5>
-                            <p class="mb-10"><span>Get instant pre-approved offers.</span></p>
+                            <p class="mb-10"><span>Your Loan Journey Starts Here</span></p>
 
                         </div>
                         <?php echo form_open('onlineprocess/sendotpCode', array('id' => 'submitForm1', 'class' => 'contac-form mb-0', 'novalidate' => 'novalidate')); ?>
@@ -102,7 +101,7 @@ $this->load->view('includes/header-apply.php');
                                                     style="text-decoration: none;" class="text-dark">Privacy
                                                     Policy</a>
                                                 of
-                                                Flexicread.</small></label>
+                                                bharatfundaway.</small></label>
 
                                     </div>
                                     <div class="help-block ms-0 ps-0 mb-2"></div>
@@ -117,7 +116,7 @@ $this->load->view('includes/header-apply.php');
                                                 class="ms-10 d-block h6 fw-normal">
                                                 I
                                                 agree to receive
-                                                promotional & informational communications from Flexicread
+                                                promotional & informational communications from Bharatfundaway
                                                 through
                                                 Emails, calls or SMS
                                                 Services.
@@ -499,7 +498,8 @@ $this->load->view('includes/header-apply.php');
                     <p class="text-orange mb-10 mb-lg-15 title-text text-color-blue text-uppercase fw-bold">The
                         Difference
                         We Bring</p>
-                    <h3 class="mb-0 text-blue">Why BharatFundWay — The Difference We Bring</h3>
+                    <h3 class="mb-0 text-blue">Why Choose BharatFundWay?</h3>
+                    <p>Discover the Benefits of Our Services</p>
                 </header>
             </div>
         </div>
@@ -517,9 +517,8 @@ $this->load->view('includes/header-apply.php');
                             </div>
                         </div>
                         <div class="text-start">
-                            <h6 class="text-blue">Enriching Collaboration</h6>
-                            <p class="mt-10 mb-0">Explore multiple financial services backed by our leading NBFC
-                                network.
+                            <h6 class="text-blue">Multiple Lending Partners</h6>
+                            <p class="mt-10 mb-0">Explore loan options from participating NBFCs and lending partners based on eligibility.
                             </p>
                         </div>
                     </div>
@@ -536,11 +535,8 @@ $this->load->view('includes/header-apply.php');
                             </div>
                         </div>
                         <div class="text-start">
-                            <h6 class="text-blue">100% Online Process</h6>
-                            <p class="mt-10 mb-0">Enjoy a smooth and hassle-free loan experience without stepping
-                                out
-                                of
-                                your home.</p>
+                            <h6 class="text-blue">Convenient Online Process</h6>
+                            <p class="mt-10 mb-0">Begin your loan application online with simple steps and clear guidance.</p>
                         </div>
                     </div>
                 </div>
@@ -556,10 +552,8 @@ $this->load->view('includes/header-apply.php');
                             </div>
                         </div>
                         <div class="text-start">
-                            <h6 class="text-blue">Self-Apply Feature</h6>
-                            <p class="mt-10 mb-0">Enjoy the freedom to make smarter financial decisions with
-                                expert
-                                support.</p>
+                            <h6 class="text-blue">Flexible Application Support</h6>
+                            <p class="mt-10 mb-0">Explore loan options independently or choose assistance during the application process.</p>
                         </div>
                     </div>
                 </div>
@@ -732,8 +726,8 @@ $this->load->view('includes/header-apply.php');
         <div class="row">
             <div class="col-xl-10 col-12 m-auto">
                 <header class="section-header d-flex flex-column text-center mb-40">
-                    <h3 class="mb-10 text-blue">Meet Our NBFC Partners</h3>
-                    <p>Partnering with leading NBFCs to bring you reliable loan options.</p>
+                    <h3 class="mb-10 text-blue">Your Financial Journey, Simplified</h3>
+                    <p>Discover available loan options for salaried and self-employed individuals.</p>
                 </header>
             </div>
         </div>
@@ -751,14 +745,12 @@ $this->load->view('includes/header-apply.php');
                         </div>
 
                         <ul class="list-unstyled list text-dark m-0 steps-list d-block">
-                            <li class="ps-0 py-0 pe-0"><i class="icon-check bg-orange"></i>Minimum Age - 21 Years
+                            <li class="ps-0 py-0 pe-0"><i class="icon-check bg-orange"></i>Minimum Age: 21 Years
                             </li>
-                            <li class="ps-0 py-0 pe-0"><i class="icon-check bg-orange"></i>Minimum Salary - Rs.
-                                15,000/month</li>
-                            <li class="ps-0 py-0 pe-0"><i class="icon-check bg-orange"></i>1 Year Job Stability</li>
-                            <li class="ps-0 py-0 pe-0"><i class="icon-check bg-orange"></i>Tenure: 6 to 72 months</li>
-                            <li class="ps-0 py-0 pe-0 mb-0"><i class="icon-check bg-orange"></i>Annual Percentage Rate
-                                (APR)
+                            <li class="ps-0 py-0 pe-0"><i class="icon-check bg-orange"></i>Monthly Salary: ₹15,000 onwards</li>
+                            <li class="ps-0 py-0 pe-0"><i class="icon-check bg-orange"></i>Employment Stability: 1 Year</li>
+                            <li class="ps-0 py-0 pe-0"><i class="icon-check bg-orange"></i>Loan Tenure: 6–72 Months</li>
+                            <li class="ps-0 py-0 pe-0 mb-0"><i class="icon-check bg-orange"></i>Interest Rates: As per Lender Policy
                             </li>
                         </ul>
                     </div>
@@ -776,14 +768,12 @@ $this->load->view('includes/header-apply.php');
                             <h5 class="text-dark mb-0 position-relative pt-15 ms-15">Self-employed Individuals</h5>
                         </div>
                         <ul class="list-unstyled list text-dark m-0 steps-list d-block">
-                            <li class="ps-0 py-0 pe-0"><i class="icon-check bg-orange"></i>Minimum Age - 21 Years</li>
-                            <li class="ps-0 py-0 pe-0"><i class="icon-check bg-orange"></i>Income Tax Return of Minimum
-                                1 Year</li>
-                            <li class="ps-0 py-0 pe-0"><i class="icon-check bg-orange"></i>1 Year Business Stability
+                            <li class="ps-0 py-0 pe-0"><i class="icon-check bg-orange"></i>Minimum Age: 21 Years</li>
+                            <li class="ps-0 py-0 pe-0"><i class="icon-check bg-orange"></i>Business Stability: 1 Year</li>
+                            <li class="ps-0 py-0 pe-0"><i class="icon-check bg-orange"></i>Income Tax Return: 1 Year
                             </li>
-                            <li class="ps-0 py-0 pe-0"><i class="icon-check bg-orange"></i>1 year it return</li>
-                            <li class="ps-0 py-0 pe-0 mb-0"><i class="icon-check bg-orange"></i>Annual Percentage Rate
-                                (APR)
+                            <li class="ps-0 py-0 pe-0"><i class="icon-check bg-orange"></i>Income Proof: As per Lender Criteria</li>
+                            <li class="ps-0 py-0 pe-0 mb-0"><i class="icon-check bg-orange"></i>Interest Rates: As per Lender Policy
                             </li>
                         </ul>
                     </div>
@@ -797,18 +787,12 @@ $this->load->view('includes/header-apply.php');
 
 <section class="section section-contact section-theme-1 bg-light-gray disclaimer-section">
     <div class="container">
-        <p class="mb-5 text-white"><strong class="text-white">Disclaimer: </strong><span>Akshar Finance Solutions LLP is not a lender or financial
-            institution. We do not provide loans or make credit decisions. All loan approvals, interest rates, fees, and
-            disbursal are handled by third-party lenders/NBFCs. We do not guarantee loan approval, disbursal, or
-            specific loan terms. The amount paid is only for the service charge. We are not lenders and do not guarantee
-            any loan approval. Loan approval, disbursement/sanction is entirely dependent on NBFC criteria.</span></p>
+        <p class="mb-5 text-white"><strong class="text-white">Disclaimer: </strong><span><?php echo base_url() ?> is not a lender or financial institution. We do not provide loans or make credit decisions. All loan approvals, interest rates, fees, and disbursal are handled by third-party lenders/NBFCs. We do not guarantee loan approval, disbursal, or specific loan terms. The amount paid is only for the service charge. We are not lenders and do not guarantee any loan approval. Loan approval, disbursement/sanction is entirely dependent on NBFC criteria.</span></p>
 
         <p class="mb-5 text-white"><strong class="text-white">Important Note: </strong><span>We ask our customers to make payments ONLY on our website <a
-                class="text-white" href="<?php echo COMPANY_SITE; ?>">Flexicread.com</a> and NOT through any other
-            source, directly or indirectly.</span></p>
+                class="text-white" href="<?php echo COMPANY_SITE; ?>">bharatfundway.com</a>  and NOT through any other source, directly or indirectly.</span></p>
 
-        <p class="mb-5 text-white"><strong class="text-white">Pre-application NOTE: </strong><span>Users are advised to read our terms and conditions and
-            policies before proceeding/applying/registration.</span>
+        <p class="mb-5 text-white"><strong class="text-white">Pre-application NOTE: </strong><span>Users are advised to read our terms and conditions and policies before proceeding/applying/registration.</span>
         </p>
         <p class="mb-5 text-white"><strong class="text-white">Disclosure:</strong> <span>Loan tenure minimum 6 months & maximum 60 months; Maximum APR: 34%
             p.a.; processing fee: up to 2%. Representative example: ₹1,00,000 at 11.5% for 60 months with ₹2,000

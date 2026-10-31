@@ -151,7 +151,7 @@ $this->load->view('includes/header-offer');
 									href="<?php echo site_url('terms-conditions'); ?>" target="_blank"
 									class="text-dark">Terms of Use</a> and <a
 									href="<?php echo site_url('privacy-policy'); ?>" target="_blank"
-									class="text-dark">Privacy Policy</a> of Flexicread.com</p>
+									class="text-dark">Privacy Policy</a> of bharatfundway.com</p>
 						</div>
 					</div>
 					<div class="jobplugin__container mt-50">
@@ -203,7 +203,7 @@ $this->load->view('includes/header-offer');
 									<i class="icon icon-star"></i>
 								</div>
 							</div>
-							<p>I am extremely satisfied with the Flexicread team's services. They took care of all of my financial needs and provided me with unbiased, timely assistance. Thank you so much, guys. Keep it up!!</p>
+							<p>I am extremely satisfied with the bharatfundway team's services. They took care of all of my financial needs and provided me with unbiased, timely assistance. Thank you so much, guys. Keep it up!!</p>
 						</div>
 					</div>
 					<div>
@@ -225,7 +225,7 @@ $this->load->view('includes/header-offer');
 									<i class="icon icon-star"></i>
 								</div>
 							</div>
-							<p>I am glad I decided to purchase Flexicread's subscription plan when I was in need of a loan. The process is completely online and extremely simple. The team was knowledgeable and friendly. They assisted me perfectly at each and every stage of my process. Overall, it was an amazing experience.</p>
+							<p>I am glad I decided to purchase bharatfundway's subscription plan when I was in need of a loan. The process is completely online and extremely simple. The team was knowledgeable and friendly. They assisted me perfectly at each and every stage of my process. Overall, it was an amazing experience.</p>
 						</div>
 					</div>
 					<div>
@@ -247,7 +247,7 @@ $this->load->view('includes/header-offer');
 									<i class="icon icon-star"></i>
 								</div>
 							</div>
-							<p>I am very thankful to Flexicread for a fast and transparent process. Everything was crystal clear and service was first class. I strongly recommend it to everyone who is looking for a loan.</p>
+							<p>I am very thankful to bharatfundway for a fast and transparent process. Everything was crystal clear and service was first class. I strongly recommend it to everyone who is looking for a loan.</p>
 						</div>
 					</div>
 					<div>
@@ -269,7 +269,7 @@ $this->load->view('includes/header-offer');
 									<i class="icon icon-star"></i>
 								</div>
 							</div>
-							<p>Flexicread is the best place to apply for a loan. The team is pro. They invest their time in understanding their customer’s needs and give solutions according to that.</p>
+							<p>bharatfundway is the best place to apply for a loan. The team is pro. They invest their time in understanding their customer’s needs and give solutions according to that.</p>
 						</div>
 					</div>
 				</div>

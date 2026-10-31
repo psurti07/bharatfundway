@@ -334,7 +334,7 @@ class Site_Cronjob_Model extends CI_Model
 			->result();
 
 		if (count($userlist) > 0) {
-			$smsmessage = "Dear Customer, your loan application is under process. Our Company Executive will connect soon. If you've any query, call us on 7990602205 Regards, Flexicread";
+			$smsmessage = "Dear Customer, your loan application is under process. Our Company Executive will connect soon. If you've any query, call us on #var Regards, Bharatfundway";
 			$smssendid = getSMSsenderid();
 
 			foreach ($userlist as $row) {
@@ -389,7 +389,7 @@ class Site_Cronjob_Model extends CI_Model
 
 		if (count($userlist) > 0) {
 			foreach ($userlist as $row) {
-				$message = "The wait is over! You're now eligible to reapply for a loan. Login to your portal https://Flexicread.com/customer";
+				$message = "The wait is over! You're now eligible to reapply for a loan. Login to your portal https://bharatfundway.com/customer";
 
 				$smsresponse = sendtextSMSobb($row->mobile, $message);
 			}

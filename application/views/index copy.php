@@ -7,7 +7,7 @@ $this->load->view('includes/header');
         <div class="row justify-content-between">
             <div class="col-12 col-lg-9 col-xl-8 position-relative">
                 <div class="visual-textbox">
-                    <h1>Aapke Sapno Ka Saathi – Aapka Apna Flexicread</h1>
+                    <h1>Aapke Sapno Ka Saathi – Aapka Apna Bharatfundway</h1>
                     <p>The Best Financial Consultation From Your Comfort Zone!</p>
                     <div class="form-search d-flex flex-column flex-lg-row justify-content-between">
                         <div class="fields-holder bg-white text-black d-flex flex-wrap flex-md-nowrap">
@@ -39,14 +39,14 @@ $this->load->view('includes/header');
         <div class="container">
             <div class="row">
                 <header class="section-header text-center text-lg-center">
-                    <h2 class="mb-0">About <span class="text-outlined">Flexicread</span></h2>
+                    <h2 class="mb-0">About <span class="text-outlined">Bharatfundway</span></h2>
                 </header>
-                <p>Flexicread is one of India's leading financial consultation and service providers. Through an
+                <p>Bharatfundway is one of India's leading financial consultation and service providers. Through an
                     intuitive online portal, we provide our clients with top-notch financial consultation and services
                     to help them reach their financial objectives. We partner with several of the top NBFCs in the
                     industry to offer our customers a wide variety of financial services that are customised to meet
                     their unique requirements, all through an ingeniously designed subscription plan. With a commitment
-                    to transparency, reliability, and customer-centric services, Flexicread is your trusted partner
+                    to transparency, reliability, and customer-centric services, Bharatfundway is your trusted partner
                     in navigating the complexities of finance with confidence.</p>
                 <div class="col-12 col-lg-6 mt-10 mb-15 mb-md-30 mb-lg-0">
                     <div class="video-box-wrap mb-20 mb-lg-0">
@@ -173,7 +173,7 @@ $this->load->view('includes/header');
                         <img src="<?php echo base_url('assets/images/img/img_55.png'); ?>" alt="img">
                     </div>
                     <div class="text-hold">
-                        <h2>Flexicread Subscription Plan</h2>
+                        <h2>Bharatfundway Subscription Plan</h2>
                         <p>Make the wise decision and receive top-notch financial consultation and services from our
                             seasoned financial professionals!</p>
                         <p><?php
@@ -202,8 +202,8 @@ $this->load->view('includes/header');
             <div class="row">
                 <div class="col-12 col-md-12 col-lg-6 txt-col mb-20">
                     <p class="mb-5 mb-lg-10">Why Choose Us?</p>
-                    <h2>What Makes Flexicread Emerge as the Best?</h2>
-                    <p>At Flexicread, we are defined by our commitment to quality, customer-focused methodology,
+                    <h2>What Makes Bharatfundway Emerge as the Best?</h2>
+                    <p>At Bharatfundway, we are defined by our commitment to quality, customer-focused methodology,
                         and the goal of empowering all our clients financially. Built on a foundation of trust and
                         deeply held principles, we take pride in offering specialised solutions that are tailored to
                         each client's needs across India.</p>

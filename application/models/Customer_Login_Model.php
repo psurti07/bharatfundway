@@ -88,7 +88,7 @@ class Customer_Login_Model extends CI_Model
 					->update('user_registration', $data);
 
 				// Send SMS
-				$message = "Hello " . $account->fullname . " Your Flexicread account's new password is " . $password . " Do not share it with anyone. Thanks, Flexicread";
+				$message = "Hello " . $account->fullname . " Your Bharatfundway account's new password is " . $password . " Do not share it with anyone. Thanks, Bharatfundway";
 				$smsresponse = sendtextSMSobb($account->mobile, $message);
 
 

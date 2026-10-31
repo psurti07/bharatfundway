@@ -71,7 +71,7 @@ $this->load->view('includes/header-offer.php');
                                 target="_blank" style="text-decoration: none;" class="text-dark">Terms of Use</a>
                               and <a href="<?= base_url('privacy-policy') ?>" target="_blank"
                                 style="text-decoration: none;" class="text-dark">Privacy Policy</a> of
-                              Flexicread.</label>
+                              Bharatfundway.</label>
                             <div class="help-block ms-0 ps-0 mb-2"></div>
                           </div>
                         </div>
@@ -81,7 +81,7 @@ $this->load->view('includes/header-offer.php');
                               value="1" style="width:auto;height:auto" checked required>
                             <label class="custom-control-label" for="promotion"
                               style="display:unset;font-size:70%;color:#000;letter-spacing: 0.7px;">I agree to receive
-                              promotional & informational communications from Flexicread through Emails, calls or SMS
+                              promotional & informational communications from Bharatfundway through Emails, calls or SMS
                               Services.</label>
                             <div class="help-block ms-0 ps-0 mb-2"></div>
                           </div>
@@ -259,7 +259,7 @@ $this->load->view('includes/header-offer.php');
             the final loan specifics may vary depending upon the customer profile and NBFCs' criteria, rules & regulations,
             and terms & conditions. The amount paid is only for the service charge. We are not lenders and do not guarantee any loan approval.</p>
 
-          <p class="mb-0"><strong>Important Note : </strong>BE AWARE! We ask our customers to make payments ONLY on our website <a class="text-dark" href="<?php echo COMPANY_SITE; ?>">Flexicread.com</a> and NOT through any other source, directly or indirectly. Thanks!</p>
+          <p class="mb-0"><strong>Important Note : </strong>BE AWARE! We ask our customers to make payments ONLY on our website <a class="text-dark" href="<?php echo COMPANY_SITE; ?>">Bharatfundway.com</a> and NOT through any other source, directly or indirectly. Thanks!</p>
 
           <p class="mb-0"><strong>Company Address : </strong><?php echo COMPANY_ADDRESS; ?></p>
         </div>
